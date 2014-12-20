@@ -1,7 +1,7 @@
 {
 	"name": "commandjson",
 	"main": "./bin/commandjson.js",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "parses files and returns json object of files structure",
 	"preferGlobal": "false",
 	"scripts": {

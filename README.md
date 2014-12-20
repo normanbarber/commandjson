@@ -11,7 +11,7 @@ A published requirement for hoarderless. It parses files in the folder you enter
     var cmdjson = require('commandjson');
     var file = {};
     file.type = 'html'; ( the other option for type is css )
-    file.paths = '/path/to/your/view/folder';  ( paths is plural here but right now is only one string. will become an array of strings eventually'
+    file.paths = '/path/to/your/view/folder';  ( paths is plural here but right now is only one string. will become an array of strings )
     return cmdjson.getFiles(file)
 	.then(function(code){
 	    console.log(code);

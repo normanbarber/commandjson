@@ -16,8 +16,7 @@ A published requirement for hoarderless. It parses files in the folder you enter
 	        console.log(code);
 	    });
 ```
-Require the module, and add the above code replacing /path/to/your/view/folder to a valid file system path   
-getFiles(data), shown in the above code snippet, expects an object with 2 properties for data.type, data.paths and it resolves a promise
+Require the module, and add the above code replacing /path/to/your/view/folder to a valid path.  The function getFiles(file), shown in the above code snippet, expects an object with 2 properties for data.type, data.paths and it resolves a promise
 
 returns an object in this form
 ```javascript

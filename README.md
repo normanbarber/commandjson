@@ -20,14 +20,20 @@ A published requirement for hoarderless. It parses files in the folder you enter
 
 ##### commandjson returns an object
 ```javascript
-    Object {selectors: Object, code: Array[], filenames: Array[], status: "success" || "error"}
+    Object {
+        selectors: Object,
+        code: Array[],
+        filenames: Array[],
+        status: "success" || "error"
+    }
 ```
 
-##### the selectors object, from the object shown above, is the most important of those. It is used to compare the css with the view in  step3 of hoarderless. It contains an array for attributes, classes, ids and viewcode
+##### the selectors object, from the object shown above, is used for most of the work while comparing the css with the view. It contains an array for attributes, classes, ids and viewcode
 ```javascript
-    selectors: Object
-	attributes: Array[]
-	classes: Array[]
-	ids: Array[]
-	viewcode: Array[]
+    selectors: Object {
+	    attributes: Array[],
+	    classes: Array[],
+	    ids: Array[],
+	    viewcode: Array[]
+	}
 ```
